@@ -26,6 +26,7 @@ namespace DatingApp.API.Helpers
                 opts.ResolveUsing(src => src.DateOfBirth.GetAgeFromDateOfBirth());
             });
             CreateMap<Photo, PhotoForDetailedDto>();
+            // Mapper.Reset();
         }
     }
 }
